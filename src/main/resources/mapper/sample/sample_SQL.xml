@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="kr.sshsys.batchsample.sample.mapper.SampleMapper">
+
+    <resultMap id="sampleResultMap" type="kr.sshsys.batchsample.sample.entity.Sample">
+        <id property="id" column="ID"/>
+        <result property="instlPlceNm" column="INSTL_PLCE_NM"/>
+        <result property="instlPlceDtil" column="INSTL_PLCE_DTIL"/>
+        <result property="svcProvdCmpnyNm" column="SVC_PROVD_CMPNY_NM"/>
+        <result property="wifiSsid" column="WIFI_SSID"/>
+        <result property="instlYm" column="INSTL_YM"/>
+        <result property="lnmAdrs" column="LNM_ADRS"/>
+        <result property="rnAdrs" column="RN_ADRS"/>
+        <result property="admdCd" column="ADMD_CD"/>
+        <result property="admdNm" column="ADMD_NM"/>
+        <result property="lgdngCd" column="LGDNG_CD"/>
+        <result property="lgdngNm" column="LGDNG_NM"/>
+        <result property="mngmtInsttNm" column="MNGMT_INSTT_NM"/>
+        <result property="telno" column="TELNO"/>
+        <result property="la" column="LA"/>
+        <result property="lo" column="LO"/>
+        <result property="dataStdrDe" column="DATA_STDR_DE"/>
+    </resultMap>
+
+    <select id="searchAll" resultMap="sampleResultMap">
+        SELECT
+            ID,
+            INSTL_PLCE_NM,
+            INSTL_PLCE_DTIL,
+            SVC_PROVD_CMPNY_NM,
+            WIFI_SSID,
+            INSTL_YM,
+            LNM_ADRS,
+            RN_ADRS,
+            ADMD_CD,
+            ADMD_NM,
+            LGDNG_CD,
+            LGDNG_NM,
+            MNGMT_INSTT_NM,
+            TELNO,
+            LA,
+            LO,
+            DATA_STDR_DE
+        FROM
+            FREE_WIFI
+        ORDER BY
+            ADMD_CD,
+            LNM_ADRS
+    </select>
+
+</mapper>

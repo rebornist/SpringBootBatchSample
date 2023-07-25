@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e1fa3bc-205a-4569-a0a6-9018643b98d4" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/BatchSampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/common/util/ObjectAttributeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/config/DefaultBatchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/config/SchedulingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/entity/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/job/SampleJobExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/mapper/SampleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/step/SampleFileWriteStepExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/util/SampleFileWriteItemReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sshsys/batchsample/sample/util/SampleFileWriteItemWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/sample/sample_SQL.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\eGov\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2T3AOW2aIPgdqnY4Q1XtLVG8lfd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/eGov/workspace/SpringBootBatchSample",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\eGov\workspace\SpringBootBatchSample" />
+      <recent name="C:\eGov\workspace\SpringBootBatchSample\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\eGov\workspace\SpringBootBatchSample\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BatchSampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootBatchSample" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kr.sshsys.batchsample.BatchSampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="8e1fa3bc-205a-4569-a0a6-9018643b98d4" name="변경" comment="" />
+      <created>1690261360198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690261360198</updated>
+      <workItem from="1690261361235" duration="298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: cubrid.jdbc.driver.CUBRIDDriver
+    url: jdbc:cubrid:localhost:33000:crsdb:::?charset=UTF-8
+    username: dba
+    password: sshs0702
